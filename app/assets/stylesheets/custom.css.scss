@@ -1,9 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-header {
-  background: asset_url('header-bg.jpg');
-  background-repeat: no-repeat;
+header {   
+  background-image: url('https://dl.dropboxusercontent.com/s/vnmv5b7nx4iewqw/homepage1.jpg');
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
