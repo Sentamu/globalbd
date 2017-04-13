@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 header {
-  background-image: url(/assets/homepage1.jpg);
+  background: asset_url('header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
