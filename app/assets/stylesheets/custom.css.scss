@@ -1,0 +1,38 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+header {
+  background-image: url(/assets/homepage1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+.shrink {
+   background-color: white;
+   
+}
+
+section#contact {
+  background-color: #222222;
+  background-image: url(/assets/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
