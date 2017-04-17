@@ -71,6 +71,12 @@
                     <li>
                         <a class="page-scroll" href="/clients/new" style="color: black">CONTACT</a>
                     </li>
+
+
+                    <% if user_signed_in? %>
+                    <li><a class="page-scroll" href="/clients" style="color: black">Messages</a></li>
+                    <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+                    <% end %>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
