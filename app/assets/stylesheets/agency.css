@@ -6,13 +6,12 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: black;
 }
 .text-muted {
-  color: #777777;
+  color: black;
 }
 .text-primary {
-  color: #fed136;
+  color: black;
 }
 p {
   font-size: 14px;
@@ -503,8 +502,8 @@ section h3.section-subheading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
@@ -524,8 +523,8 @@ section h3.section-subheading {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
